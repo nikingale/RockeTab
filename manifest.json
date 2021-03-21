@@ -1,0 +1,23 @@
+{
+  "name" : "RockeTab",
+  "author" : "Nikhil Netaji Ingale",
+  "description" : "An inspirational quote for every new tab",
+  "version" : "1.0.0",
+  "manifest_version" : 2,
+
+  "chrome_url_overrides" : {
+    "newtab" : "index.html"
+  },
+
+  "browser_action" : {
+    "default_popup": "index.html"
+  },
+
+  "icons" : {
+    "128" : "icon.png"
+  },
+
+  "offline_enabled" : true,
+
+  "permissions" : ["activeTab"]
+}
