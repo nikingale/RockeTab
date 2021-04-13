@@ -21,7 +21,5 @@
     "128" : "resources/icon128.png"
   },
 
-  "offline_enabled" : true,
-
-  "permissions" : ["activeTab"]
+  "offline_enabled" : true
 }
